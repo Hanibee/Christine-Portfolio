@@ -1,20 +1,29 @@
+html {
+    background-image: linear-gradient(to bottom, #82b2fa, #afb9fa, #d0c3f8, #e8cef5, #f9dcf5);
+}
+
 h1 {
     text-align: center;
+    color: #E73BBA;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 35px;
 }
 
 body {
-
+    /* background-color: #FFF6FD; */
 }
 
 nav {
-    background-color: #FFF4FF;
+    background-color: #8383FF;
     display: flex;
     justify-content: center;
+    font-family: 'Bungee Shade', cursive;
 }
 
 ul a {
     text-decoration: none;
-    color: #E5A9CF;
+    /* color: #FF0086; */
+    color: #6BBAA3;
 }
 
 ul a:hover {
@@ -22,9 +31,13 @@ ul a:hover {
 }
 
 header {
-
+    display: flex;
+    justify-content: center;
+    font-family: 'Thasadith', sans-serif;
 }
 
 footer {
-
+    display: flex;
+    justify-content: center;
+    font-family: 'Thasadith', sans-serif;
 }
